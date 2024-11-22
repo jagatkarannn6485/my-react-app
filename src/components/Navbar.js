@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export function Navbar() {
+    return (_jsx("nav", { className: "bg-white shadow-md fixed w-full z-50", children: _jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: _jsxs("div", { className: "flex justify-between h-16 items-center", children: [_jsx("div", { className: "flex-shrink-0", children: _jsx("span", { className: "text-2xl font-bold text-indigo-600", children: "Quick Circuit" }) }), _jsx("div", { className: "hidden md:block", children: _jsxs("div", { className: "ml-10 flex items-center space-x-8", children: [_jsx("a", { href: "#", className: "text-gray-700 hover:text-indigo-600", children: "Home" }), _jsx("a", { href: "#products", className: "text-gray-700 hover:text-indigo-600", children: "Products" }), _jsx("a", { href: "#contact", className: "text-gray-700 hover:text-indigo-600", children: "Contact" })] }) })] }) }) }));
+}
