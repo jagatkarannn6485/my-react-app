@@ -73,7 +73,7 @@ app.use(bodyParser.json());
 //     origin: 'http://localhost:5173',
 // }));
 app.use(cors({
-    origin: 'https://quickcircuit.netlify.app/', // Replace with your Netlify URL
+    origin: 'https://quickcircuit.netlify.app/ ', // Replace with your Netlify URL
 }));
 
 mongoose.connect('mongodb+srv://jagatkaransingh:admin1234@cluster.7suqy.mongodb.net/new', {
