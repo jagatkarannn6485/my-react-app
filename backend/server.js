@@ -75,7 +75,11 @@ app.use(bodyParser.json());
 app.use(cors({
     origin: 'https://quickcircuit.netlify.app/ ', // Replace with your Netlify URL
 }));
+// Middleware
+app.use(bodyParser.json());
 
+// Handle preflight requests
+app.options('*', cors());
 mongoose.connect('mongodb+srv://jagatkaransingh:admin1234@cluster.7suqy.mongodb.net/new', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
