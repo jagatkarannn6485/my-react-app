@@ -189,7 +189,7 @@ import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 //   const handleSubmit = async (e: React.FormEvent) => {
 //     e.preventDefault();
 //     try {
-//       const response = await fetch('http://localhost:3000/send-email', {
+//       const response = await fetch('https://b1c4-2401-4900-8510-c9a8-89da-3dfa-3808-5e6b.ngrok-free.app/send-email', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -370,7 +370,7 @@ export function ContactSection() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/send-email', {
+            const response = await fetch('https://b1c4-2401-4900-8510-c9a8-89da-3dfa-3808-5e6b.ngrok-free.app/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
