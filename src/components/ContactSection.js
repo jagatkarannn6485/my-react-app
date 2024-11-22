@@ -410,9 +410,8 @@ import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 //             [name]: type === 'checkbox' ? e.target.checked : value,
 //         }));
 //     };
-//     return (_jsx("section", { id: "contact", children: _jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [_jsxs("div", { className: "text-center mb-12", children: [_jsx("h2", { className: "text-3xl font-bold mb-4", children: "Contact Us" }), _jsx("p", { className: "text-lg text-gray-600", children: "For more information and bulk orders, please reach out to us" })] }), _jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-12", children: [_jsxs("div", { className: "bg-white p-8 rounded-lg shadow-md", children: [_jsx("h3", { className: "text-xl font-semibold mb-6", children: "Company Information" }), _jsxs("div", { className: "space-y-4", children: [_jsxs("div", { className: "flex items-start space-x-4", children: [_jsx("div", { className: "w-24 flex-shrink-0", children: _jsx("span", { className: "font-semibold text-gray-700", children: "Address:" }) }), _jsx("span", { className: "text-gray-600", children: "Plot No.- 121, Sector-9, Phase III, HSIIDC, IMT Bawal, Rewari, Haryana-123501" })] }), _jsxs("div", { className: "flex items-center space-x-4", children: [_jsx("div", { className: "w-24 flex-shrink-0", children: _jsx("span", { className: "font-semibold text-gray-700", children: "Phone:" }) }), _jsx("span", { className: "text-gray-600", children: "+91-9878244824" })] }), _jsxs("div", { className: "flex items-center space-x-4", children: [_jsx("div", { className: "w-24 flex-shrink-0", children: _jsx("span", { className: "font-semibold text-gray-700", children: "Email:" }) }), _jsx("span", { className: "text-gray-600", children: "quickcircuitdesign@gmail.com" })] })] })] }), _jsxs("div", { className: "bg-white p-8 rounded-lg shadow-md", children: [_jsx("h3", { className: "text-xl font-semibold mb-6", children: "Send Us a Message" }), _jsxs("form", { onSubmit: handleSubmit, className: "space-y-4", children: [_jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-4", children: [_jsxs("div", { children: [_jsx("label", { htmlFor: "name", className: "block text-sm font-medium text-gray-700 mb-1", children: "Name *" }), _jsx("input", { type: "text", id: "name", name: "name", required: true, value: formData.name, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] }), _jsxs("div", { children: [_jsx("label", { htmlFor: "email", className: "block text-sm font-medium text-gray-700 mb-1", children: "Email *" }), _jsx("input", { type: "email", id: "email", name: "email", required: true, value: formData.email, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] })] }), _jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-4", children: [_jsxs("div", { children: [_jsx("label", { htmlFor: "company", className: "block text-sm font-medium text-gray-700 mb-1", children: "Company" }), _jsx("input", { type: "text", id: "company", name: "company", value: formData.company, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] }), _jsxs("div", { children: [_jsx("label", { htmlFor: "phone", className: "block text-sm font-medium text-gray-700 mb-1", children: "Phone" }), _jsx("input", { type: "tel", id: "phone", name: "phone", value: formData.phone, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] })] }), _jsxs("div", { children: [_jsx("label", { htmlFor: "message", className: "block text-sm font-medium text-gray-700 mb-1", children: "Message *" }), _jsx("textarea", { id: "message", name: "message", required: true, value: formData.message, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500", rows: 4 })] }), _jsxs("div", { className: "flex items-center", children: [_jsx("input", { type: "checkbox", id: "isBulkOrder", name: "isBulkOrder", checked: formData.isBulkOrder, onChange: handleChange, className: "mr-2" }), _jsx("label", { htmlFor: "isBulkOrder", className: "text-sm text-gray-600", children: "Is this a bulk order?" })] }), _jsx("button", { type: "submit", className: "mt-4 w-full bg-indigo-600 text-white font-semibold py-2 rounded-md hover:bg-indigo-700", children: "Send Message" })] })] })] })] }) }));
+    // return (_jsx("section", { id: "contact", children: _jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [_jsxs("div", { className: "text-center mb-12", children: [_jsx("h2", { className: "text-3xl font-bold mb-4", children: "Contact Us" }), _jsx("p", { className: "text-lg text-gray-600", children: "For more information and bulk orders, please reach out to us" })] }), _jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-12", children: [_jsxs("div", { className: "bg-white p-8 rounded-lg shadow-md", children: [_jsx("h3", { className: "text-xl font-semibold mb-6", children: "Company Information" }), _jsxs("div", { className: "space-y-4", children: [_jsxs("div", { className: "flex items-start space-x-4", children: [_jsx("div", { className: "w-24 flex-shrink-0", children: _jsx("span", { className: "font-semibold text-gray-700", children: "Address:" }) }), _jsx("span", { className: "text-gray-600", children: "Plot No.- 121, Sector-9, Phase III, HSIIDC, IMT Bawal, Rewari, Haryana-123501" })] }), _jsxs("div", { className: "flex items-center space-x-4", children: [_jsx("div", { className: "w-24 flex-shrink-0", children: _jsx("span", { className: "font-semibold text-gray-700", children: "Phone:" }) }), _jsx("span", { className: "text-gray-600", children: "+91-9878244824" })] }), _jsxs("div", { className: "flex items-center space-x-4", children: [_jsx("div", { className: "w-24 flex-shrink-0", children: _jsx("span", { className: "font-semibold text-gray-700", children: "Email:" }) }), _jsx("span", { className: "text-gray-600", children: "quickcircuitdesign@gmail.com" })] })] })] }), _jsxs("div", { className: "bg-white p-8 rounded-lg shadow-md", children: [_jsx("h3", { className: "text-xl font-semibold mb-6", children: "Send Us a Message" }), _jsxs("form", { onSubmit: handleSubmit, className: "space-y-4", children: [_jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-4", children: [_jsxs("div", { children: [_jsx("label", { htmlFor: "name", className: "block text-sm font-medium text-gray-700 mb-1", children: "Name *" }), _jsx("input", { type: "text", id: "name", name: "name", required: true, value: formData.name, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] }), _jsxs("div", { children: [_jsx("label", { htmlFor: "email", className: "block text-sm font-medium text-gray-700 mb-1", children: "Email *" }), _jsx("input", { type: "email", id: "email", name: "email", required: true, value: formData.email, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] })] }), _jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-4", children: [_jsxs("div", { children: [_jsx("label", { htmlFor: "company", className: "block text-sm font-medium text-gray-700 mb-1", children: "Company" }), _jsx("input", { type: "text", id: "company", name: "company", value: formData.company, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] }), _jsxs("div", { children: [_jsx("label", { htmlFor: "phone", className: "block text-sm font-medium text-gray-700 mb-1", children: "Phone" }), _jsx("input", { type: "tel", id: "phone", name: "phone", value: formData.phone, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" })] })] }), _jsxs("div", { children: [_jsx("label", { htmlFor: "message", className: "block text-sm font-medium text-gray-700 mb-1", children: "Message *" }), _jsx("textarea", { id: "message", name: "message", required: true, value: formData.message, onChange: handleChange, className: "w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500", rows: 4 })] }), _jsxs("div", { className: "flex items-center", children: [_jsx("input", { type: "checkbox", id: "isBulkOrder", name: "isBulkOrder", checked: formData.isBulkOrder, onChange: handleChange, className: "mr-2" }), _jsx("label", { htmlFor: "isBulkOrder", className: "text-sm text-gray-600", children: "Is this a bulk order?" })] }), _jsx("button", { type: "submit", className: "mt-4 w-full bg-indigo-600 text-white font-semibold py-2 rounded-md hover:bg-indigo-700", children: "Send Message" })] })] })] })] }) }));
 // }
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import React, { useState } from 'react';
 
 export function ContactSection() {
@@ -426,10 +425,10 @@ export function ContactSection() {
     });
 
     const handleChange = (e) => {
-        const { name, value, type } = e.target;
+        const { name, value, type, checked } = e.target;
         setFormData((prev) => ({
             ...prev,
-            [name]: type === 'checkbox' ? e.target.checked : value,
+            [name]: type === 'checkbox' ? checked : value,
         }));
     };
 
@@ -486,74 +485,104 @@ export function ContactSection() {
                                 <div className="w-24 flex-shrink-0">
                                     <span className="font-semibold text-gray-700">Email:</span>
                                 </div>
-                                <span className="text-gray-600">info@yourcompany.com</span>
+                                <span className="text-gray-600">quickcircuitdesign@gmail.com</span>
                             </div>
                             <div className="flex items-center space-x-4">
                                 <div className="w-24 flex-shrink-0">
                                     <span className="font-semibold text-gray-700">Phone:</span>
                                 </div>
-                                <span className="text-gray-600">+91-123-456-7890</span>
+                                <span className="text-gray-600">+91-9878244824</span>
                             </div>
                         </div>
                     </div>
                     <div className="bg-white p-8 rounded-lg shadow-md">
-                        <h3 className="text-xl font-semibold mb-6">Get in Touch</h3>
-                        <form onSubmit={handleSubmit}>
-                            <input
-                                type="text"
-                                name="name"
-                                placeholder="Your Name"
-                                value={formData.name}
-                                onChange={handleChange}
-                                required
-                                className="w-full p-2 border border-gray-300 rounded mb-4"
-                            />
-                            <input
-                                type="email"
-                                name="email"
-                                placeholder="Your Email"
-                                value={formData.email}
-                                onChange={handleChange}
-                                required
-                                className="w-full p-2 border border-gray-300 rounded mb-4"
-                            />
-                            <input
-                                type="text"
-                                name="company"
-                                placeholder="Your Company"
-                                value={formData.company}
-                                onChange={handleChange}
-                                className="w-full p-2 border border-gray-300 rounded mb-4"
-                            />
-                            <input
-                                type="tel"
-                                name="phone"
-                                placeholder="Your Phone"
-                                value={formData.phone}
-                                onChange={handleChange}
-                                className="w-full p-2 border border-gray-300 rounded mb-4"
-                            />
-                            <textarea
-                                name="message"
-                                placeholder="Your Message"
-                                value={formData.message}
-                                onChange={handleChange}
-                                required
-                                className="w-full p-2 border border-gray-300 rounded mb-4"
-                            />
-                            <label className="flex items-center mb-4">
+                        <h3 className="text-xl font-semibold mb-6">Send Us a Message</h3>
+                        <form onSubmit={handleSubmit} className="space-y-4">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                                        Name *
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        required
+                                        value={formData.name}
+                                        onChange={handleChange}
+                                        className="w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                                        Email *
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        className="w-full rounded-md border-gray-300 shadow ```javascript
+                                        focus:border-indigo-500 focus:ring-indigo-500"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
+                                    Company
+                                </label>
                                 <input
-                                    type="checkbox"
-                                    name="isBulkOrder"
-                                    checked={formData.isBulkOrder}
+                                    type="text"
+                                    id="company"
+                                    name="company"
+                                    value={formData.company}
                                     onChange={handleChange}
-                                    className="mr-2"
+                                    className="w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                                 />
-                                <span>Check if this is a bulk order</span>
-                            </label>
+                            </div>
+                            <div>
+                                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                                    Phone
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    value={formData.phone}
+                                    onChange={handleChange}
+                                    className="w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                                    Message *
+                                </label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    required
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    className="w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                                />
+                            </div>
+                            <div>
+                                <label className="inline-flex items-center">
+                                    <input
+                                        type="checkbox"
+                                        name="isBulkOrder"
+                                        checked={formData.isBulkOrder}
+                                        onChange={handleChange}
+                                        className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                                    />
+                                    <span className="ml-2 text-sm text-gray-700">Bulk Order</span>
+                                </label>
+                            </div>
                             <button
                                 type="submit"
-                                className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+                                className="w-full bg-indigo-600 text-white font-semibold py-2 rounded-md hover:bg-indigo-700"
                             >
                                 Send Message
                             </button>
