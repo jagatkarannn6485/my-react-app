@@ -579,8 +579,7 @@
 //       </div>
 //     </section>
 //   );
-// }
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+// }import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import React, { useState } from 'react';
 
 export function ContactSection() {
@@ -593,15 +592,17 @@ export function ContactSection() {
         isBulkOrder: false,
     });
 
-    const handleChange = (e) => {
-        const { name, value, type } = e.target;
-        setFormData((prev) => ({
-            ...prev,
-            [name]: type === 'checkbox' ? e.target.checked : value,
-        }));
-    };
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+      const { name, value, type } = e.target; // Destructure name, value, and type from e.target
+      const checked = type === 'checkbox' ? (e.target as HTMLInputElement).checked : undefined; // Use type assertion for checked
+  
+      setFormData((prev) => ({
+          ...prev,
+          [name]: type === 'checkbox' ? checked : value, // Use checked for checkbox inputs
+      }));
+  };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         const response = await fetch('/.netlify/functions/saveData', {
@@ -691,7 +692,7 @@ export function ContactSection() {
                                 placeholder="Your Company"
                                 value={formData.company}
                                 onChange={handleChange}
-                                className="w-full p-2 border border-gray-300 rounded mb-4"
+                                className=" w-full p-2 border border-gray-300 rounded mb-4"
                             />
                             <input
                                 type="tel"
@@ -717,13 +718,13 @@ export function ContactSection() {
                                     onChange={handleChange}
                                     className="mr-2"
                                 />
-                                <span>Check if this is a bulk order</span>
+                                <span>Request a bulk order</span>
                             </label>
                             <button
                                 type="submit"
-                                className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+                                className="w-full bg-blue-500 text-white p-2 rounded"
                             >
-                                Send Message
+                                Submit
                             </button>
                         </form>
                     </div>
